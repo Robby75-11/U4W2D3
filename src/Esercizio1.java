@@ -14,9 +14,11 @@ public class Esercizio1 {
 
         for (int i=0; i < n; i++) {
             System.out.println("Inserisci parola #" + (i+1) + ": ");
-            String parola = scanner.nextLine();
-            if (!paroleDistinte.add(parola)) {
-                paroleDuplicate.add(parola);
+
+            String p = scanner.nextLine();
+
+            if (!paroleDistinte.add(p)) {
+                paroleDuplicate.add(p);
 
             }
         }
